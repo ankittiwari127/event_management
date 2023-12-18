@@ -17,24 +17,24 @@ const UserWelcomePage = () => {
       };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-blue-300">
+    <div className="flex items-center justify-center h-screen bg-green-600">
       <div className="text-center">
-        <h1 className="text-3xl font-bold mb-8 bg-gray-200 p-8">Welcome User</h1>
+        <h1 className="text-3xl font-bold mb-8 bg-gray-200 p-8 rounded-full"> Hello Welcome User</h1>
 
-        <div className="grid grid-cols-4 gap-4">
-          <div className="bg-gray-200 p-4 rounded-md">
+        <div className="grid grid-cols-3 gap-5">
+          <div className="bg-gray-200 p-4 rounded-full">
             <h2 className="text-lg font-semibold mb-2">Vendor</h2>
           </div>
-          <div className="bg-gray-200 p-4 rounded-md">
+          <div className="bg-gray-200 p-4 rounded-full">
             <h2 className="text-lg font-semibold mb-2">Cart</h2>
           </div>
-          <div className="bg-gray-200 p-4 rounded-md">
+          <div className="bg-gray-200 p-4 rounded-full">
             <h2 className="text-lg font-semibold mb-2">Guest List</h2>
           </div>
-          <div className="bg-gray-200 p-4 rounded-md">
+          <div className="bg-gray-200 p-4 rounded-full">
             <h2 className="text-lg font-semibold mb-2">Order Status</h2>
           </div>
-          <div className="bg-gray-200 p-4 rounded-md text-center items-center justify-center">
+          <div className="bg-gray-200 p-4 rounded-md text-center items-center justify-center rounded-full">
             <h2 className="text-lg text-center font-semibold mb-2 cursor-pointer" onClick={handleLogout}>Logout</h2>
           </div>
         </div>

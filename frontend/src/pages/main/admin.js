@@ -17,15 +17,15 @@ const AdminWelcomePage = () => {
 
   return (
     <>
-      <div className="flex bg-blue-300">
+      <div className="flex bg-green-300">
         <h2
-          className="flex-1 text-left p-4 bg-gray-200 text-xl cursor-pointer"
+          className="flex-1 text-left p-4 bg-green-200 text-xl cursor-pointer rounded-full"
           onClick={handleLogout}
         >
           Home
         </h2>
         <h2
-          className="flex-1 text-right p-4 bg-gray-200 text-xl cursor-pointer"
+          className="flex-1 text-right p-4 bg-green-200 text-xl cursor-pointer rounded-full"
           onClick={handleLogout}
         >
           Logout
@@ -33,16 +33,16 @@ const AdminWelcomePage = () => {
       </div>
       <div className="flex items-center justify-center h-screen bg-blue-300">
         <div className="text-center">
-          <h1 className="text-3xl font-bold mb-8 bg-gray-200 p-8">
+          <h1 className="text-3xl font-bold mb-8 bg-gray-200 p-8 rounded-full">
             Welcome Admin
           </h1>
 
           <div className="grid grid-cols-4 gap-4">
-            <div className="bg-gray-200 p-4 rounded-md">
-              <h2 className="text-lg font-semibold mb-2">Mentain User</h2>
+            <div className="bg-gray-200 p-4 rounded-full">
+              <h2 className="text-lg font-semibold mb-2 rounded-full">Mentain User</h2>
             </div>
-            <div className="bg-gray-200 p-4 rounded-md">
-              <h2 className="text-lg font-semibold mb-2">Mentain Vendor</h2>
+            <div className="bg-gray-200 p-4 rounded-full">
+              <h2 className="text-lg font-semibold mb-2 rounded-full">Mentain Vendor</h2>
             </div>
           </div>
         </div>

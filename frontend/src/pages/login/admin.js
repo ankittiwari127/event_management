@@ -25,7 +25,7 @@ const UserLoginPage = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-400">
+    <div className="flex items-center justify-center h-screen bg-gradient-to-r from-blue-500 to-purple-500">
       <div className="bg-white p-8 rounded shadow-md w-96">
         <h1 className="text-2xl font-bold mb-4">Event Management System Admin Panel</h1>
         <div className="mb-4">
@@ -53,7 +53,7 @@ const UserLoginPage = () => {
           />
         </div>
         <button
-          className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700"
+          className="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700 rounded-full"
           onClick={handleLogin}
         >
           Login
